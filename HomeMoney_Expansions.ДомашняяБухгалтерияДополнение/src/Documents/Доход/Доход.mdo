@@ -12,7 +12,6 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
-    <defaultObjectForm>Extended</defaultObjectForm>
   </extension>
   <registerRecords>AccumulationRegister.ДБ_АктыВыполненияРабот</registerRecords>
   <tabularSections uuid="10e0fef1-c06b-4ce3-9f1a-4b9a13a8cffb" extendedConfigurationObject="4f268e04-6892-4475-af3e-f0009e0fd979">
