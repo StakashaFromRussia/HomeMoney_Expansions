@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3762415-a894-48f5-83aa-5fa4597ecb3d">
+  <producedTypes>
+    <managerType typeId="8048c75d-a198-4a32-84ef-520d18257701" valueTypeId="6888e940-43c7-4d32-a3b1-ee48a194c677"/>
+    <valueManagerType typeId="9a3dc036-c861-4b32-8294-883fc9c12fdb" valueTypeId="f3c1f1d2-d3ca-41f5-a32c-3c56fb53904e"/>
+    <valueKeyType typeId="d3c45e0b-0ad0-4faf-91cc-6ed9ea3d1ee9" valueTypeId="f6ead329-c42f-45a7-adfb-725d010345fd"/>
+  </producedTypes>
+  <name>ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию с календарем google</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

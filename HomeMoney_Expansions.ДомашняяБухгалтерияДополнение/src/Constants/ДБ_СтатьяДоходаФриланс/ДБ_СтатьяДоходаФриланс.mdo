@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb8e758b-9ed0-4e85-bffb-fac5df33afbc">
+  <producedTypes>
+    <managerType typeId="b7e3d063-bf9c-4f91-8c84-8e6c198e0913" valueTypeId="b7a00c7e-bd4f-4c5d-a0f3-1ab8a8f843b5"/>
+    <valueManagerType typeId="be9de857-bd7f-48c7-a698-58d48e93703f" valueTypeId="392b58a4-f56c-460e-9954-56563e3372c3"/>
+    <valueKeyType typeId="ce8a293f-4fff-45a9-b99f-81c6a94d9411" valueTypeId="788ceed6-b485-42d3-a284-e86097ca9bf9"/>
+  </producedTypes>
+  <name>ДБ_СтатьяДоходаФриланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Статья дохода (фриланс)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиДоходов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

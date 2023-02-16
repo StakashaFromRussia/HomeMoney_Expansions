@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="96f7e87b-a905-4324-a23b-778ddfc424cf" extendedConfigurationObject="dd57beda-1c9e-4f4d-89ba-723f33761d2e">
+  <producedTypes>
+    <objectType typeId="5d1a3cbb-87a2-43df-a2e7-a571eea9aa11" valueTypeId="d02b5ff5-f173-4877-9763-eb4f20d7e8ab"/>
+    <refType typeId="069b9fab-d1c9-4402-9748-e76c3e32f912" valueTypeId="fa228833-6f82-4997-ab2e-727e07686600"/>
+    <selectionType typeId="bdfc6472-8241-4531-a832-3d7148c312a5" valueTypeId="19b88747-e0c2-4ee1-905d-83d549e17e35"/>
+    <listType typeId="351368fa-9f27-4dc2-a73e-9d214a6d9ce6" valueTypeId="141340ea-04bd-4f3d-a66b-00a4a1f84161"/>
+    <managerType typeId="68a58d04-c426-4687-89bd-0499fe9e3335" valueTypeId="6d787bb5-f277-420b-97fd-0afdbf477405"/>
+  </producedTypes>
+  <name>СтатьиДоходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

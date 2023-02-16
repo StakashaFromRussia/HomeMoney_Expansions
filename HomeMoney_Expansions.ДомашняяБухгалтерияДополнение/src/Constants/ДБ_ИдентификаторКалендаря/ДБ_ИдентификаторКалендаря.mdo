@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e2a9aa-e48a-472d-a58d-637045c957c2">
+  <producedTypes>
+    <managerType typeId="495bc01f-80ee-4d6b-9764-b5c3d6ddd4c0" valueTypeId="225d423d-bf87-4f40-a92b-a462364581ad"/>
+    <valueManagerType typeId="1c76376d-defa-4a28-9614-d944b1d446b8" valueTypeId="6167164c-4d3b-45a8-81bc-c752d65bff52"/>
+    <valueKeyType typeId="9f3b64f6-475c-4aa1-a8b2-5793b4a0172c" valueTypeId="9512fefb-528b-4143-98cd-d5a1f56fb163"/>
+  </producedTypes>
+  <name>ДБ_ИдентификаторКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Идентификатор календаря</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

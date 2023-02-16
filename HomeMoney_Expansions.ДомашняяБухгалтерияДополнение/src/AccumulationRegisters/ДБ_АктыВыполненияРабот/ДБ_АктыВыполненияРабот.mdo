@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4d7898-1a96-4b12-8b75-0426d3e80bfd">
+  <producedTypes>
+    <selectionType typeId="bb9dda72-6d52-4249-87f6-394eaf407a4c" valueTypeId="6bfb45c4-3824-4c1b-a645-c5077a1a947b"/>
+    <listType typeId="ebaf0236-3e7c-43f2-bef0-0cacfcaf0e15" valueTypeId="c31a2e0a-f87f-4944-b278-ed0f6273c8ee"/>
+    <managerType typeId="0a6d7748-4f4f-4a2c-800b-e9f10daa55f9" valueTypeId="6d477587-b9ec-451a-87a7-71e8646396c8"/>
+    <recordSetType typeId="99f0070b-df28-41db-a289-386fe90e66e9" valueTypeId="dde30fdd-f818-47f3-9868-398ea9f6f589"/>
+    <recordKeyType typeId="12168290-a097-48e2-93fa-045a67ccbff8" valueTypeId="f601667c-682f-4ff7-976a-25c034942ee5"/>
+    <recordType typeId="0ecb5e48-8eab-432c-904a-0ac2c822bf52" valueTypeId="2839c7b6-72ba-4b11-9911-fab72aefbec2"/>
+  </producedTypes>
+  <name>ДБ_АктыВыполненияРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Акты выполнения работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Регистр накопления &quot;Акты выполнения работ&quot;</value>
+  </listPresentation>
+  <resources uuid="8bebc6ec-0589-415b-8014-cf8be6e782c7">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1554db4f-2f63-4d7e-bdfb-6b4e482ff6a2">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="becadbec-1624-48b9-93b1-5b87fcb9526d">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

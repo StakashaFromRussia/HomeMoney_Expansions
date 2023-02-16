@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6db9348-642c-4090-af41-732b7e947680">
+  <producedTypes>
+    <objectType typeId="8b243f29-edb4-4413-9fb3-c5bf3dc4ae00" valueTypeId="67b74cfd-83a5-4742-a871-eb81443fb2e5"/>
+    <refType typeId="33dda155-b486-444c-895c-a7fbed4d8262" valueTypeId="2e8c0d80-edb6-4a1c-b57b-64c4f36f5069"/>
+    <selectionType typeId="d43be63a-5631-4607-a16a-458647904c5d" valueTypeId="5563e9f3-15aa-4fd7-8816-7310257fddb1"/>
+    <listType typeId="d9254cb0-1d2a-465f-bd6f-9ca95d83aec4" valueTypeId="508b1554-c594-4bbc-9e96-a52cb44ebf8a"/>
+    <managerType typeId="1a1992a2-0ee9-4a89-bd5f-dad0b1559dfe" valueTypeId="201f9fa2-7619-462b-8cb9-2ca626c395aa"/>
+  </producedTypes>
+  <name>ДБ_УчетРабочегоВремениНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Учет рабочего времени (новый)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДБ_УчетРабочегоВремениНовый.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Документы учета рабочего времени</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДБ_УчетРабочегоВремениНовый.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДБ_УчетРабочегоВремени</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="de9778c0-0834-4c45-ac57-12b65ef16bdf">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДБ_ВидыУчетаРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ДБ_ВидыУчетаРабочегоВремени.EnumValue.Языки</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ced7ecc9-3d6c-4946-8498-2b7ca276cd71">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1c6d7c1a-443a-4d72-9f91-0fe9f226cabd">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ba641018-6c49-42c5-abfa-c909a175adcf">
+    <producedTypes>
+      <objectType typeId="f6a70f55-d9ba-40db-a149-156b539e1299" valueTypeId="94239fba-3ebc-44a8-ad54-964882dd2647"/>
+      <rowType typeId="92170cb8-42f5-46da-b1b9-5ebbd747f401" valueTypeId="c575222c-0c7a-408e-a38b-ce7759d78d26"/>
+    </producedTypes>
+    <name>УчетВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет времени</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="41e9b67a-b120-4e70-8b28-637d44be6cb8">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контакты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da60db22-3d89-4f24-8da2-683a52839dc9">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДБ_Задачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c5aa3f6-ff6b-4410-938f-655ca5aba7b6">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

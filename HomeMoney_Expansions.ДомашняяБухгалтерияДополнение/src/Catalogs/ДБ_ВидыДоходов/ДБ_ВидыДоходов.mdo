@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2314a80-efe4-41c4-8404-98a009ea8682">
+  <producedTypes>
+    <objectType typeId="1e26630f-7dd6-43f5-bd34-f11a194dd889" valueTypeId="4bd9fbe9-b009-4710-a41e-719ef9a6afbc"/>
+    <refType typeId="386202c3-d73b-4e20-bd03-f78572448e92" valueTypeId="6fc91a39-a203-46be-b0ab-f16b99a62733"/>
+    <selectionType typeId="db8e8e73-5860-4352-8920-cb158a297e79" valueTypeId="05a49275-7f1b-429b-beb1-9c408c93a3bf"/>
+    <listType typeId="91bdcb88-ec99-40e1-b425-de51221ab655" valueTypeId="9a2b0699-b54c-4c52-bc59-5c8acae628b1"/>
+    <managerType typeId="0e757137-583b-47f7-a53f-a2ee0e29566d" valueTypeId="cea7bca3-72b8-46e9-aba6-e34751643277"/>
+  </producedTypes>
+  <name>ДБ_ВидыДоходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Виды доходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДБ_ВидыДоходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДБ_ВидыДоходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

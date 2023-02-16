@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="698f19a1-1b6a-40bc-9c27-8f8a507bdc15">
+  <producedTypes>
+    <managerType typeId="a0294285-7f12-4a31-b9a5-ab4032bd5960" valueTypeId="5572a89d-d6db-47c5-8fa9-e2dcce9d7181"/>
+    <valueManagerType typeId="ab92813b-e7d6-4c8a-a42a-1c55ca23f579" valueTypeId="90f487b0-20db-4b11-a634-7ba142c4cf1c"/>
+    <valueKeyType typeId="b1d3c62c-4837-407a-83d0-a7b97debd22b" valueTypeId="4737f7e3-60e3-4117-a813-0d64dab2595a"/>
+  </producedTypes>
+  <name>ДБ_ГруппаКонтактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Группа контактов</value>
+  </synonym>
+  <comment>Группа контактов для хранения учеников</comment>
+  <type>
+    <types>CatalogRef.Контакты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

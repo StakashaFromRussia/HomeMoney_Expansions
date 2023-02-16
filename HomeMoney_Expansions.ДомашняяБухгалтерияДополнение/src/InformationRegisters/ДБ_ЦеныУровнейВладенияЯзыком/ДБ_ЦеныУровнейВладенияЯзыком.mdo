@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a34862-8561-4688-ac0e-caaa1e32f369">
+  <producedTypes>
+    <selectionType typeId="72a89fdc-4bad-47f1-b6e4-25acc28012bd" valueTypeId="19c16828-1839-4e92-bce4-769a167bfe7c"/>
+    <listType typeId="6b548c41-5844-4c89-aaaa-f0dbc5cc4027" valueTypeId="65811d3f-dccb-448d-9cdb-db5b4512171f"/>
+    <managerType typeId="d16c5962-a070-4ac3-8fff-faa9fd0c1996" valueTypeId="69f5bc44-426c-48a6-83e5-bf716d1a7d80"/>
+    <recordSetType typeId="c026f33b-b1ab-43ce-96e8-669d19ac3c54" valueTypeId="a6881185-34c8-4bf4-b9a9-f99faf15250a"/>
+    <recordKeyType typeId="8a143e6b-aafa-4ae1-a530-a17f4094cac9" valueTypeId="5273afbd-d22c-4f3d-8ca2-b73e029cddd1"/>
+    <recordType typeId="2b6f19da-7121-42d1-8ddd-35722cf6090a" valueTypeId="5dddd624-7580-4763-8f8b-d8994c7da56b"/>
+    <recordManagerType typeId="fbd9d5bd-f0d5-48b4-9761-5269bdd7f6a6" valueTypeId="a1b8956e-8a29-4e98-b66c-052bdd9f4544"/>
+  </producedTypes>
+  <name>ДБ_ЦеныУровнейВладенияЯзыком</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Цены уровней владения языком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены уровней владения языком</value>
+  </listPresentation>
+  <resources uuid="7ae9aa07-af4c-426c-9898-c51de8cdc191">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="14abde06-3cc1-4019-ad7c-9966edfbbf56">
+    <name>УровеньВладенияЯзыком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень владения языком</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_УровниВладенияЯзыком</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

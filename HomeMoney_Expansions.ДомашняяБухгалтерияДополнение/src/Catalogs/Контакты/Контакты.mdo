@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8841d5a4-60e1-4269-929a-7ebf5393ba38">
+  <producedTypes>
+    <objectType typeId="fe82bb35-e3f2-4cce-871b-ccc888804315" valueTypeId="b51c649c-06a0-41f7-8bf3-6fba643772fd"/>
+    <refType typeId="f0f59e20-f489-4004-9e79-9ca3da3eb320" valueTypeId="f2731d95-0836-4ea8-990d-1cd253a105b7"/>
+    <selectionType typeId="09b96f1d-78d1-4eff-9a1a-20201e277608" valueTypeId="2b5d4eca-258a-4c37-bb81-937f5a98a9f6"/>
+    <listType typeId="1cc79e44-97d3-4f03-9b8a-e314b55f3393" valueTypeId="7e83cf89-6eaa-4035-87ee-8315fbc1cfa9"/>
+    <managerType typeId="cbefd165-cb22-4838-8854-fa209ed765bc" valueTypeId="6f16ad66-a624-44d1-b21d-bced46f96151"/>
+  </producedTypes>
+  <name>Контакты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="3b261f78-5e68-4ecb-a9eb-b459350f2eec" extendedConfigurationObject="a46bc88e-744c-4aec-9950-3af1369585d1">
+    <name>Активность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

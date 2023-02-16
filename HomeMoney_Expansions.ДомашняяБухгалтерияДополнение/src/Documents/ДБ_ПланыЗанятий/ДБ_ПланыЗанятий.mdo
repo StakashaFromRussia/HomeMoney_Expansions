@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87a2a0e7-a899-4b95-b5c8-56506e5dede7">
+  <producedTypes>
+    <objectType typeId="7b5cf0cc-de3f-4bd0-84d2-581e0d587d3b" valueTypeId="b2d2bf3f-34ad-4c58-a684-a2e63c61476b"/>
+    <refType typeId="37919677-cae9-40f7-bfdc-e2ef1d0964e2" valueTypeId="da218930-e6a5-4de9-848c-8fb34a1fe8ee"/>
+    <selectionType typeId="96976118-43b0-4da6-8cc3-4d5e7abd3fa6" valueTypeId="0e3f6ede-e0e0-4e75-ae83-0102d59b1216"/>
+    <listType typeId="acf301d1-7633-4fcb-a7dd-603c7412a5b4" valueTypeId="e531b8f0-d998-4ef1-8d5c-ae02ac75c68b"/>
+    <managerType typeId="152170a9-6233-44d0-b527-e4be6122727b" valueTypeId="41e813d3-5cea-457c-b1ae-07afb13f072d"/>
+  </producedTypes>
+  <name>ДБ_ПланыЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Планы занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДБ_ПланыЗанятий.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>План занятий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Планы занятий</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДБ_ПланыЗанятий.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b7a0e258-3f91-4b2e-912d-1bb76fe11185">
+    <name>УченикГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученик (группа)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e2c3519-9562-45ae-9985-29b979e4cccc">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57e42557-b31a-4380-9210-f0b76250e66e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="302d5b84-acf8-469f-83c9-45c411244306">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b1467617-5cc5-4246-b845-9f73a95ecc3a">
+    <producedTypes>
+      <objectType typeId="dda47e20-24b3-460f-98e0-bd9b4e93b083" valueTypeId="d02b50dd-a286-4d00-8d97-b2aa2e0b0ea9"/>
+      <rowType typeId="478dd926-2799-4746-9bf5-ccf137b46e6b" valueTypeId="e1e0af9c-2c53-40aa-a3a0-8670e39cdeda"/>
+    </producedTypes>
+    <name>ПланЗанятий</name>
+    <synonym>
+      <key>ru</key>
+      <value>План занятий</value>
+    </synonym>
+    <attributes uuid="a2a2d89c-aa6c-4f7f-a19e-53da0a996262">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="254f4c87-a084-47f4-945d-38486e2f2f56">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

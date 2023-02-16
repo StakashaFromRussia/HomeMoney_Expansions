@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c894bc4a-5eb3-4f21-b175-4cbd164f4510">
+  <producedTypes>
+    <objectType typeId="43520e97-7409-477b-9e77-e17eb0ee06f6" valueTypeId="c8cb935d-7976-4277-bb9d-74a40f7f0061"/>
+    <refType typeId="a2d120b9-756c-4214-b09b-42e7af2ddcdb" valueTypeId="f21333b5-e74a-4238-b23c-3c1794a91abf"/>
+    <selectionType typeId="9c3bf181-6902-4771-bd8f-5f39da94633a" valueTypeId="eb1af12f-0912-4928-8898-4118562294fc"/>
+    <listType typeId="39979c22-b657-401c-bd16-19d6bfb8bf44" valueTypeId="2c57851a-1b03-4a6a-be3a-c7e400a0f515"/>
+    <managerType typeId="a6bafac4-848a-4855-9067-462584988d98" valueTypeId="bb6a1a0c-0e07-43a4-97ac-ba968c7eea91"/>
+  </producedTypes>
+  <name>ДБ_УровниВладенияЯзыком</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Уровни владения языком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДБ_УровниВладенияЯзыком.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДБ_УровниВладенияЯзыком.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уровень владения языком</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уровни владения языком</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

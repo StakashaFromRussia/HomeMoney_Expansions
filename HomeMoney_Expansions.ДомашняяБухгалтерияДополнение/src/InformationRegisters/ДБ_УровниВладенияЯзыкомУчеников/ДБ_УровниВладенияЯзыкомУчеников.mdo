@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e3da704-26c2-4c02-a5a8-d11607b9d95b">
+  <producedTypes>
+    <selectionType typeId="d17eef78-5876-42a3-8492-c7463d0fab0c" valueTypeId="f943391b-fc9a-4927-8e70-60f78805c9cc"/>
+    <listType typeId="678a8933-e183-4695-9e84-ea53a9913753" valueTypeId="37b68b45-5124-4048-a4e9-b135c198290b"/>
+    <managerType typeId="9b445b95-e6c8-4e8c-b912-63d65724e2a0" valueTypeId="9756597e-bc69-482d-ab0e-b0e1a6587cbb"/>
+    <recordSetType typeId="13ee67dd-f995-469c-a90f-b0416c4d204a" valueTypeId="2f5406ec-169c-4d7d-b712-53f576a31fed"/>
+    <recordKeyType typeId="20ba2c7d-7327-40d6-bc2e-0ce70d04b1b9" valueTypeId="fffcdc65-6e7d-483f-b82a-0b79784d057b"/>
+    <recordType typeId="e0342f08-b922-48b8-9549-5ae217b985ae" valueTypeId="d8d030fe-3de7-4f4f-bb45-4cb3ed0a0727"/>
+    <recordManagerType typeId="56e3ebe8-0e1e-4bcc-946d-5d971ddfd6ec" valueTypeId="62faa44f-82ac-4218-8129-9a3d1e8571f3"/>
+  </producedTypes>
+  <name>ДБ_УровниВладенияЯзыкомУчеников</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Уровни владения языком учеников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Уровень владения языком</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уровни владения языком учеников</value>
+  </listPresentation>
+  <resources uuid="8646e497-080f-4a73-8ae9-f27ec4ba89ab">
+    <name>УровеньВладенияЯзыком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень владения языком</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_УровниВладенияЯзыком</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d7a9bca8-234c-4a9b-9605-5d793cdd624b">
+    <name>УченикГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученик группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

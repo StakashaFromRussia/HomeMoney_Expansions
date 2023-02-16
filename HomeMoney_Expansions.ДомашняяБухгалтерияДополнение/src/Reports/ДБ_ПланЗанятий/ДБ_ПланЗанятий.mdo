@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c3a73d0-791a-4d1d-8eed-ee76e7bac81d">
+  <producedTypes>
+    <objectType typeId="04217fbc-c39b-48d1-aeb3-b570486559c2" valueTypeId="1962edcb-c0c8-4c1d-8902-bcade81b7e52"/>
+    <managerType typeId="2542effe-2c3f-4797-be86-820c25a8e5ec" valueTypeId="86f9f345-4df5-4238-8ca0-8a83437f2d6f"/>
+  </producedTypes>
+  <name>ДБ_ПланЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) План занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДБ_ПланЗанятий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>План занятий</value>
+  </extendedPresentation>
+  <templates uuid="0c7530a8-3751-4c68-82b1-22d57ed08edc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

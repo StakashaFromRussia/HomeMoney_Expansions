@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc5bd6d5-a23e-40c5-add1-aab8fb080c85">
+  <producedTypes>
+    <selectionType typeId="07d52582-abe1-472c-b88d-2443a5642549" valueTypeId="94e29bcf-b54d-45fe-98ce-2dfe4f711ba2"/>
+    <listType typeId="1d89fd65-9f39-4f05-963b-f784a103daa3" valueTypeId="2114fc13-9d3a-4a9a-88f2-a27d0f869fba"/>
+    <managerType typeId="29d03dc0-bdfb-4f0e-9efe-4269842cbd84" valueTypeId="a1fb19df-cb6e-478d-aea9-be9d2f299335"/>
+    <recordSetType typeId="1935d128-aa04-435c-8088-a28da0c260b9" valueTypeId="ca582c07-50cf-441a-a73d-23b32d2e216c"/>
+    <recordKeyType typeId="f9929cb2-7fc6-42a3-ae6e-5e62709bb41c" valueTypeId="2ef12a5f-06db-426d-a7de-91780a947fef"/>
+    <recordType typeId="3c43a430-3098-4ac4-b290-f1a1578ce0e8" valueTypeId="12ad2bfb-de63-4ef7-b25d-33db374cff9c"/>
+    <recordManagerType typeId="4fc62b9a-69ff-48e3-bf1d-525360f571e2" valueTypeId="0566cb5e-9ee6-45d6-92b2-48fbab927957"/>
+  </producedTypes>
+  <name>ДБ_Хронометраж</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Хронометраж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b527d61-af67-4767-9e90-797abac06ed2">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="75b14acc-0d18-4dd9-a719-394de87e3fbc">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b7418d49-15fe-4abc-960b-b1958e1cd039">
+    <name>ФормаВыполненияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выполнения задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

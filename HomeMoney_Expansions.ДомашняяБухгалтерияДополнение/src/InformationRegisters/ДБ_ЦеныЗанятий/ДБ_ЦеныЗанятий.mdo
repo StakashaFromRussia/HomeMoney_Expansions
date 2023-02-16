@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3180d505-e457-47da-9150-4c8119cfd43f">
+  <producedTypes>
+    <selectionType typeId="ea14942f-8e19-459e-8d2f-2a12450c1fd8" valueTypeId="b0585ea7-90c7-49de-9212-4c78e18617e8"/>
+    <listType typeId="a1ea6b2d-faa4-482c-8243-36e7ce12b951" valueTypeId="7c22c918-6c71-4801-a53b-f022ed3cb429"/>
+    <managerType typeId="b548f1ca-6fc5-49eb-9347-0f91517ef656" valueTypeId="649b02d9-30c2-495d-8d0c-4d91cf19f6c4"/>
+    <recordSetType typeId="086d7303-88e4-4dd0-8640-c4b4e9d8222c" valueTypeId="d1291dcb-1fde-455b-a554-c9989c90bc19"/>
+    <recordKeyType typeId="275ec973-b179-4ef0-8015-b9a7414a6dac" valueTypeId="ebf4b5be-0756-4625-86f6-a7fa2a568e54"/>
+    <recordType typeId="651506c0-6df7-4c64-a2c2-b49f0de33dbb" valueTypeId="26f2f7ce-357e-4449-affa-68fe16b55bb5"/>
+    <recordManagerType typeId="332a564c-de80-4733-ba71-0ea0e0adb35a" valueTypeId="de436409-01c6-4c08-aa69-368c59094589"/>
+  </producedTypes>
+  <name>ДБ_ЦеныЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Цены занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена занятия</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены занятий</value>
+  </listPresentation>
+  <resources uuid="b6791ba3-736e-448d-9cbf-95c63accdf91">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2a607db5-8f47-4551-9baa-74977f20df53">
+    <name>УченикГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученик (группа)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5f548dc-2abc-48a2-b692-9c42e50c02f5">
+    <name>ДатаЗанятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата занятия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

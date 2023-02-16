@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2368627e-ffa0-4f91-a551-e00f7e78477a">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ДБ_Настройки</content>
+  <content>FunctionalOption.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</content>
+  <parentSubsystem>Subsystem.ДБ_УчетРабочегоВремени</parentSubsystem>
+</mdclass:Subsystem>

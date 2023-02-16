@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5720c39-6939-4d53-a7cb-70bea9a945d2">
+  <producedTypes>
+    <objectType typeId="f6a924a4-d330-4a71-8ac0-6456d71b019b" valueTypeId="b491e4e5-81de-4508-85a4-0d51e9a358be"/>
+    <managerType typeId="ddaaba31-fa45-4b10-ad35-945e1f66f4ed" valueTypeId="a6bbe092-18ab-4dd7-9ecf-49f632b553f9"/>
+  </producedTypes>
+  <name>ДБ_УчетРабочегоВремениНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Учет рабочего времени (новый)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДБ_УчетРабочегоВремениНовый.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c92d68bf-dc20-444f-afe1-751e3e1a7d1d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

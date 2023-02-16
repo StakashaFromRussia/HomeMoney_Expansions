@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1437bdb8-21c2-4b16-ac7a-7496fffd7f26" extendedConfigurationObject="748b6fda-f879-4a18-b0a7-95bb7aafb969">
+  <producedTypes>
+    <objectType typeId="a0300e99-a425-45ee-afd9-2d2ada8fbfb3" valueTypeId="3a8bb266-933b-4cfc-a5d1-b2b1d386d9a1"/>
+    <refType typeId="00a7f621-b4d8-4ea4-9a2a-7ee1e200b647" valueTypeId="4851c8a6-132c-4890-90fd-08cac74d1ddc"/>
+    <selectionType typeId="17c7eebb-57ad-4662-9019-44c1c24a529c" valueTypeId="f7771070-d000-420c-b501-464e8c8030c6"/>
+    <listType typeId="08972001-2d75-4705-b9b4-d5b857ae16da" valueTypeId="f1c2da4d-a821-483e-b3ee-fc67539cb7eb"/>
+    <managerType typeId="e70fd5af-5d99-45ff-b81a-eb6e6f3d8409" valueTypeId="743a95ab-33a3-423b-95be-407dc6f5f30d"/>
+  </producedTypes>
+  <name>Доход</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <registerRecords>AccumulationRegister.ДБ_АктыВыполненияРабот</registerRecords>
+</mdclass:Document>

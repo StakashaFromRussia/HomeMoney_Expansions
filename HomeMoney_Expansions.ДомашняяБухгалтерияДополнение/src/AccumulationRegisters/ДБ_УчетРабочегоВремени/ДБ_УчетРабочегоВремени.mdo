@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79d887ae-1146-45a6-a4f2-e38a1177b048">
+  <producedTypes>
+    <selectionType typeId="4e96f9fe-34a7-4b4c-bb92-9a37e1c9a45d" valueTypeId="377f6206-e250-4ddf-928f-8b7f15907ff6"/>
+    <listType typeId="cdc3350a-40a7-4588-b450-ee96a5beca47" valueTypeId="0bda1d1a-94e4-46be-b02e-a2c856e8f1d2"/>
+    <managerType typeId="067bb3bc-6882-4956-ae2b-f209355c098a" valueTypeId="7f14427f-7d25-4ef8-baa4-21123073483b"/>
+    <recordSetType typeId="e5b3a8dc-bc43-4437-9d9b-e8c40900f6a4" valueTypeId="f7931960-6c69-4904-a48b-f2fd01dcaf41"/>
+    <recordKeyType typeId="afc49bf4-fa83-461d-a76f-090b329e7545" valueTypeId="99c317eb-b2ab-43f3-a91c-9cb21bc5b957"/>
+    <recordType typeId="3eb8ffc0-88d2-4dd8-813a-dbd30b0a0e4d" valueTypeId="b123921e-5af0-4b73-aab7-c1fe67ea2989"/>
+  </producedTypes>
+  <name>ДБ_УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Учет рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="50e3b55e-5aa0-403f-a5b7-b6280b99ba19">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6b791f5e-44d7-4d04-8dda-0772950dc811">
+    <name>Контакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2ff036cd-435b-41cf-baf4-5ba3f33a9779">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

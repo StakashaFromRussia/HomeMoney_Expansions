@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8736ed6-9de1-415c-82b9-1bf44ec11c49">
+  <name>ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию с календарем google</value>
+  </synonym>
+  <location>Constant.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.ДБ_GoogleClientID</content>
+  <content>Constant.ДБ_ИдентификаторКалендаря</content>
+  <content>Constant.ДБ_GoogleClientSecret</content>
+  <content>Constant.ДБ_GoogleRefreshToken</content>
+</mdclass:FunctionalOption>

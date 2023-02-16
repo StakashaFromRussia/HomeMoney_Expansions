@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da3ea03-cfda-487a-9c83-f9883c15ba29">
+  <producedTypes>
+    <managerType typeId="fac82518-e859-4dc4-852c-b8a73ecf799b" valueTypeId="6bd8f01b-2f71-4d24-85b7-9439fb295c88"/>
+    <valueManagerType typeId="f2b6f8c8-8ab8-42bf-aad3-48b54cfd8a9b" valueTypeId="4254763c-f110-4229-8715-b54b3f42f7a0"/>
+    <valueKeyType typeId="89db832b-8a62-497c-9d67-8267a1d268c8" valueTypeId="afbdf8b5-6608-4c8e-baf1-4c9bfb18b681"/>
+  </producedTypes>
+  <name>ДБ_GoogleClientID</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сlient ID</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

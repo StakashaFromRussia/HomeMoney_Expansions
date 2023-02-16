@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e5ab1d5-ad5a-48ff-a55b-ba958b84e9a6">
+  <producedTypes>
+    <refType typeId="2c0929df-c1ef-4ea3-acd8-ae9f7c39fd8c" valueTypeId="e1df69b4-a6b1-445c-a5b3-da9e9815d542"/>
+    <listType typeId="786ec5e7-6e98-4345-bb2f-e6132419166f" valueTypeId="9aaa2e76-f319-44ed-962f-6cb5b9533db0"/>
+    <managerType typeId="b3a31cfe-5b87-4f71-80d1-0a2ec4e252c0" valueTypeId="76574c9d-d21f-414c-b711-d0a4ef8c31e9"/>
+  </producedTypes>
+  <name>ДБ_ВидыУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Виды учета рабочего времени</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fedefa04-f333-4aa7-9c19-a872d26d3b3b">
+    <name>Программирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3482ea6f-9a84-483e-b628-8f490f196868">
+    <name>Языки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Языки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

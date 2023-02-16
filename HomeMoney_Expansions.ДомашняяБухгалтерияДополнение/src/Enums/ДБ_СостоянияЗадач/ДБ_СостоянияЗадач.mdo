@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c87db226-e8a1-4ea9-9e97-e2264ee823d6">
+  <producedTypes>
+    <refType typeId="72fd22d3-28a5-49e2-a44b-7d029469c973" valueTypeId="3bce0681-bc10-4709-b12c-57cb3dbda690"/>
+    <listType typeId="1335669e-151d-4c2e-8d83-7dc5d643f0d1" valueTypeId="ea98ebae-2885-498e-a7ff-b83e9e32654c"/>
+    <managerType typeId="189628a5-d1c4-4a5b-b210-24ccbecaa34c" valueTypeId="db46cf82-69ae-4096-aabc-d3f6878071e4"/>
+  </producedTypes>
+  <name>ДБ_СостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Состояния задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16971044-0dd8-4289-9ee0-debef3b8c668">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="504ade3c-9ced-450d-930c-c7891813e424">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed23edb8-2b12-4dfc-a570-400034de9be2">
+    <name>ПереданаЗаказчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передана заказчику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5c86b5b-c545-44e8-a685-e81bf86a280d">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="641c30b2-6193-41b7-9c97-f46b1f8db09e">
+    <name>ВозвращенаНаДоработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращена на доработку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

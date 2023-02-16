@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47b62a3-790b-4d2a-8e8b-539c74163f3a">
+  <producedTypes>
+    <objectType typeId="76b22ec1-6ca3-45d4-9731-9531d07d536f" valueTypeId="6a151633-4128-47a3-a698-e25c1d9feb9b"/>
+    <refType typeId="53b1ec3b-aace-4c12-bf7c-755a472fae65" valueTypeId="837cf9f5-091b-4f37-ad94-7fd795bc37f9"/>
+    <selectionType typeId="5bbfff57-15aa-4087-a6f1-ce63bb15f937" valueTypeId="af7d0e90-23fd-4d94-92ad-d12a838b8e9e"/>
+    <listType typeId="a361c122-e82d-460e-b0e7-d7db3d2bdf93" valueTypeId="a63d2bb2-c307-4810-b656-f9c1a4741f6d"/>
+    <managerType typeId="c654f698-e940-4588-8c02-f60f6eda4014" valueTypeId="ee364dba-cbb2-4f0c-837f-ae8cb5c3e67f"/>
+  </producedTypes>
+  <name>ДБ_Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДБ_Задачи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДБ_Задачи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задача</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список задач</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДБ_Задачи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДБ_Задачи.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="eeb2f964-ba30-4e45-bca5-67839d9e1dfa">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f887295-f34b-49f0-8059-d7568d7ec04b">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6157a5d-586f-4269-9a49-0bd268908de1">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контакты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b141ddd4-9a8e-4e8d-8b5a-44aab302b195">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae72fc9c-681a-496b-aa05-26e485ae66ce">
+    <name>Анадитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анадитика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="756cc283-d8bb-45a2-9aa4-f463265527f0">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДБ_СостоянияЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f7c99a89-39bd-4355-a0fc-dc5abcc609bc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b6388f3-41e8-4306-b6f1-6adce9524cb2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="38f64170-96b4-48eb-a515-13d392ada7fe">
+    <name>НачатьВыполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать выполнение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ДБ_Задачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="fc7b4bfb-8798-4548-b64f-eb2a1099427c">
+    <name>Оплатить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплатить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ДБ_Задачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>
