@@ -12,6 +12,7 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
+    <defaultObjectForm>Extended</defaultObjectForm>
   </extension>
   <registerRecords>AccumulationRegister.ДБ_АктыВыполненияРабот</registerRecords>
 </mdclass:Document>

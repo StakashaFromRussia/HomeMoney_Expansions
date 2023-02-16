@@ -41,6 +41,11 @@
   <subsystems>Subsystem.ДБ_Telegram</subsystems>
   <subsystems>Subsystem.ДБ_Календарь</subsystems>
   <subsystems>Subsystem.ДБ_УчетРабочегоВремени</subsystems>
+  <styleItems>StyleItem.ФонЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ДеньгиЦветГиперссылки</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <commonPictures>CommonPicture.СтатьиДоходов16</commonPictures>
+  <commonPictures>CommonPicture.Кошелек16</commonPictures>
   <roles>Role.ДБ_ИспользованиеБотов</roles>
   <roles>Role.ДБ_ПолныеПрава</roles>
   <commonModules>CommonModule.ДБ_ОбщегоНазначенияHTTP</commonModules>
@@ -53,6 +58,10 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <httpServices>HTTPService.ДБ_Боты</httpServices>
   <functionalOptions>FunctionalOption.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</functionalOptions>
+  <commonCommands>CommonCommand.ФормаОперацииУчесть</commonCommands>
+  <commonCommands>CommonCommand.ФормаОперацииВЧерновики</commonCommands>
+  <commonCommands>CommonCommand.ФормаОперацииНаУдаление</commonCommands>
+  <commonCommands>CommonCommand.ПосмотретьДвижения</commonCommands>
   <constants>Constant.ДБ_GoogleClientID</constants>
   <constants>Constant.ДБ_GoogleClientSecret</constants>
   <constants>Constant.ДБ_GoogleRefreshToken</constants>
