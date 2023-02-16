@@ -76,6 +76,9 @@
   <catalogs>Catalog.ДополнительныеЗначенияВидовАналитик</catalogs>
   <catalogs>Catalog.Контакты</catalogs>
   <catalogs>Catalog.СтатьиДоходов</catalogs>
+  <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <catalogs>Catalog.ЗначенияСубконтоАналитика</catalogs>
+  <catalogs>Catalog.ФинансовыеЦели</catalogs>
   <documents>Document.ДБ_ВходящийHTTPЗапрос</documents>
   <documents>Document.ДБ_НачислениеЗарплаты</documents>
   <documents>Document.ДБ_ПланыЗанятий</documents>

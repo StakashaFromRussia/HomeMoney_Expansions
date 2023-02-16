@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f64e511a-e200-476f-80bf-b2149c5a78c3" extendedConfigurationObject="3a93b8eb-f3ed-472e-a83d-a05641ecdfb3">
+  <producedTypes>
+    <objectType typeId="a5cd9c98-e1c5-4664-8fb4-13a761eaa863" valueTypeId="060c361b-0266-446d-8e33-69f5d5f1d275"/>
+    <refType typeId="7aafd70d-d882-477a-a9bc-d5d3e52ea660" valueTypeId="2daa264b-4ffb-4ea5-ae3c-7a4e02d7b44e"/>
+    <selectionType typeId="8ea9ed22-0ac5-4649-bf1c-0e7d946bd099" valueTypeId="f8e40b86-7684-4873-8b6c-49dbfea0ac30"/>
+    <listType typeId="8c5e3e92-b01c-40c3-90de-8f0b40e1e9d9" valueTypeId="0b582cdb-06e7-44f6-8d6f-fac550aaf163"/>
+    <managerType typeId="0305adb9-a32c-4187-88cc-13e88e8f0d02" valueTypeId="eabfc2a2-b85b-49fd-8a03-b769aee0f151"/>
+  </producedTypes>
+  <name>КошелькиИСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

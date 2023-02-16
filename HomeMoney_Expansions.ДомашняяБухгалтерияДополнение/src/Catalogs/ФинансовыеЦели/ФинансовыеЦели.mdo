@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ca9f6d7-02b6-413b-b304-8c06260b5158" extendedConfigurationObject="1a0e5317-f648-484d-adba-daae6db42605">
+  <producedTypes>
+    <objectType typeId="c24b066b-9dfa-4aaa-880a-329b685bce46" valueTypeId="e548350e-a9de-4d69-9fd0-84cc1e8552ed"/>
+    <refType typeId="a56aa4ec-757b-429e-9738-10f4f04b5553" valueTypeId="e13fe164-cfe3-49b4-bd07-9459194e8be6"/>
+    <selectionType typeId="73abe387-53d9-4e79-875e-eb6fb9d279cd" valueTypeId="764d0b97-342f-4bc2-b3b0-8adc51f6cd6b"/>
+    <listType typeId="4436676c-8f71-4b12-acb3-50befd99051a" valueTypeId="b07d0142-4b23-42f3-a7f9-eeb40ee2bc45"/>
+    <managerType typeId="c210949d-4644-4a46-85a6-48a86b129039" valueTypeId="273adf8c-f46e-454b-87c1-27fec3bacb23"/>
+  </producedTypes>
+  <name>ФинансовыеЦели</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
