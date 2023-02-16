@@ -85,6 +85,7 @@
   <informationRegisters>InformationRegister.ДБ_Хронометраж</informationRegisters>
   <informationRegisters>InformationRegister.ДБ_ЦеныЗанятий</informationRegisters>
   <informationRegisters>InformationRegister.ДБ_ЦеныУровнейВладенияЯзыком</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_ЗначенияНастроекПрограммы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДБ_УчетРабочегоВремени</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДБ_АктыВыполненияРабот</accumulationRegisters>
 </mdclass:Configuration>

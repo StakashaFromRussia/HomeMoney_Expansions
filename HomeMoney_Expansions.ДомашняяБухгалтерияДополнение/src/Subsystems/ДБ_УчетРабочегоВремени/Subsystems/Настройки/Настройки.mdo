@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ДБ_Настройки</content>
   <content>FunctionalOption.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</content>
+  <content>InformationRegister.ДБ_ЗначенияНастроекПрограммы</content>
   <parentSubsystem>Subsystem.ДБ_УчетРабочегоВремени</parentSubsystem>
 </mdclass:Subsystem>

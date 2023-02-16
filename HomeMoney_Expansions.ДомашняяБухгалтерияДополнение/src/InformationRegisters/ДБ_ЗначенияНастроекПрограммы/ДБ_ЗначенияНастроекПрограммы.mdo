@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ca43f1e-e49b-493a-bdc1-ef271ab0ede4">
+  <producedTypes>
+    <selectionType typeId="59464575-32ed-4d71-9980-b7033fc5753c" valueTypeId="478ecfca-3b90-4ee8-b744-733d40e8bee8"/>
+    <listType typeId="9e985d0b-2748-4326-b657-7fc647a2dba8" valueTypeId="a67ddd6f-0935-41ad-9cd9-3f9a2d6f3347"/>
+    <managerType typeId="9d62afdc-8e7f-4844-b612-4be15863f50e" valueTypeId="2d6d04a1-4193-47e8-b326-f7dbe1d26c05"/>
+    <recordSetType typeId="b23e51c1-fc97-42df-97a5-1e8004d4ab1d" valueTypeId="bf5d327a-733d-4358-ab67-e79fd49a86cb"/>
+    <recordKeyType typeId="375c90ff-d7d0-4da8-89d4-34d4c5d8f6cb" valueTypeId="6afcebaa-da30-4c0c-b512-d73bdea8e668"/>
+    <recordType typeId="919c7ee4-c32e-4149-bc79-0f3eafcf08ed" valueTypeId="7274aea7-3f4f-4c86-887b-c07c1a6d3af0"/>
+    <recordManagerType typeId="cbb1f464-c99c-4a97-9e43-80b717cee30c" valueTypeId="bcbfca08-5eac-485f-a3bb-fe22b6c1c092"/>
+  </producedTypes>
+  <name>ДБ_ЗначенияНастроекПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Значения настроек программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДБ_ЗначенияНастроекПрограммы.Form.RecordForm</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройкаи</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Дополнительные настройки (расширение)</value>
+  </listPresentation>
+  <resources uuid="f49e2fa7-1192-49a6-9f08-e7f5820ce905">
+    <name>ЗначениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c7fc605b-e0ac-42cf-8fbb-e088a8d4ce69">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8b20fc2d-3a54-4e9d-8a76-d069ea771b2c">
+    <name>ИмяНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6ba489c3-c383-4729-974f-05145a5743d4">
+    <name>RecordForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
