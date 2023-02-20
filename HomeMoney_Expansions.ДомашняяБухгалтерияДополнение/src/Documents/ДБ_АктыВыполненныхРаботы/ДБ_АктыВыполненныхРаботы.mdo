@@ -122,6 +122,46 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="ebf2a0ae-9c31-4d0e-9f99-2718d011ea4f">
+    <producedTypes>
+      <objectType typeId="36f67365-05be-41c0-a9ca-07ec605e1be3" valueTypeId="18bb36b5-bb12-4169-8a98-89107d693070"/>
+      <rowType typeId="d1bf62e2-cacf-4b87-a3eb-849151d25949" valueTypeId="840aaecb-3633-43df-a80a-f4de577c3add"/>
+    </producedTypes>
+    <name>ПрисоединенныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенные файла</value>
+    </synonym>
+    <attributes uuid="8199947a-0dc2-418a-9f22-f8d49bb7bf0b">
+      <name>ДанныеФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные файла</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="474998eb-987f-4e34-bf5d-1c9eea2d8828">
+      <name>ИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <commands uuid="27a79c36-5112-465d-baf8-049f2539f17b">
     <name>СоздатьНаОснованииДоход</name>
     <synonym>
