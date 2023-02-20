@@ -127,10 +127,10 @@
       <objectType typeId="36f67365-05be-41c0-a9ca-07ec605e1be3" valueTypeId="18bb36b5-bb12-4169-8a98-89107d693070"/>
       <rowType typeId="d1bf62e2-cacf-4b87-a3eb-849151d25949" valueTypeId="840aaecb-3633-43df-a80a-f4de577c3add"/>
     </producedTypes>
-    <name>ПрисоединенныеФайла</name>
+    <name>ПрисоединенныеФайлы</name>
     <synonym>
       <key>ru</key>
-      <value>Присоединенные файла</value>
+      <value>Присоединенные файлы</value>
     </synonym>
     <attributes uuid="8199947a-0dc2-418a-9f22-f8d49bb7bf0b">
       <name>ДанныеФайла</name>

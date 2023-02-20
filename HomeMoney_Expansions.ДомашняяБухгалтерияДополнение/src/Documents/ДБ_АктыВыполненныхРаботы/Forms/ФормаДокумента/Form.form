@@ -665,13 +665,16 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.ВыполненныеЗадачи.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаСтраницаПрисоединенныеФайла</name>
       <id>88</id>
       <items xsi:type="form:Table">
-        <name>ПрисоединенныеФайла</name>
+        <name>ПрисоединенныеФайлы</name>
         <id>92</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -679,11 +682,11 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПрисоединенныеФайла</segments>
+          <segments>Объект.ПрисоединенныеФайлы</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ПрисоединенныеФайлаНомерСтроки</name>
+          <name>ПрисоединенныеФайлыНомерСтроки</name>
           <id>105</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -691,10 +694,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПрисоединенныеФайла.LineNumber</segments>
+            <segments>Объект.ПрисоединенныеФайлы.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПрисоединенныеФайлаНомерСтрокиРасширеннаяПодсказка</name>
+            <name>ПрисоединенныеФайлыНомерСтрокиРасширеннаяПодсказка</name>
             <id>107</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -709,7 +712,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрисоединенныеФайлаНомерСтрокиКонтекстноеМеню</name>
+            <name>ПрисоединенныеФайлыНомерСтрокиКонтекстноеМеню</name>
             <id>106</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -733,7 +736,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ПрисоединенныеФайлаИмяФайла</name>
+          <name>ПрисоединенныеФайлыИмяФайла</name>
           <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -741,10 +744,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПрисоединенныеФайла.ИмяФайла</segments>
+            <segments>Объект.ПрисоединенныеФайлы.ИмяФайла</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПрисоединенныеФайлаИмяФайлаРасширеннаяПодсказка</name>
+            <name>ПрисоединенныеФайлыИмяФайлаРасширеннаяПодсказка</name>
             <id>110</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -759,7 +762,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрисоединенныеФайлаИмяФайлаКонтекстноеМеню</name>
+            <name>ПрисоединенныеФайлыИмяФайлаКонтекстноеМеню</name>
             <id>109</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -774,6 +777,10 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>ПрисоединенныеФайлыИмяФайлаНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
@@ -783,7 +790,7 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ПрисоединенныеФайлаКоманднаяПанель</name>
+          <name>ПрисоединенныеФайлыКоманднаяПанель</name>
           <id>93</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -799,10 +806,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПрисоединенныеФайлаСтрокаПоиска</name>
+          <name>ПрисоединенныеФайлыСтрокаПоиска</name>
           <id>96</id>
           <extendedTooltip>
-            <name>ПрисоединенныеФайлаСтрокаПоискаРасширеннаяПодсказка</name>
+            <name>ПрисоединенныеФайлыСтрокаПоискаРасширеннаяПодсказка</name>
             <id>98</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -817,7 +824,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрисоединенныеФайлаСтрокаПоискаКонтекстноеМеню</name>
+            <name>ПрисоединенныеФайлыСтрокаПоискаКонтекстноеМеню</name>
             <id>97</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -836,10 +843,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПрисоединенныеФайлаСостояниеПросмотра</name>
+          <name>ПрисоединенныеФайлыСостояниеПросмотра</name>
           <id>102</id>
           <extendedTooltip>
-            <name>ПрисоединенныеФайлаСостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>ПрисоединенныеФайлыСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>104</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -854,7 +861,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрисоединенныеФайлаСостояниеПросмотраКонтекстноеМеню</name>
+            <name>ПрисоединенныеФайлыСостояниеПросмотраКонтекстноеМеню</name>
             <id>103</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -874,10 +881,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПрисоединенныеФайлаУправлениеПоиском</name>
+          <name>ПрисоединенныеФайлыУправлениеПоиском</name>
           <id>99</id>
           <extendedTooltip>
-            <name>ПрисоединенныеФайлаУправлениеПоискомРасширеннаяПодсказка</name>
+            <name>ПрисоединенныеФайлыУправлениеПоискомРасширеннаяПодсказка</name>
             <id>101</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -892,7 +899,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрисоединенныеФайлаУправлениеПоискомКонтекстноеМеню</name>
+            <name>ПрисоединенныеФайлыУправлениеПоискомКонтекстноеМеню</name>
             <id>100</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -907,7 +914,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПрисоединенныеФайлаРасширеннаяПодсказка</name>
+          <name>ПрисоединенныеФайлыРасширеннаяПодсказка</name>
           <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -922,7 +929,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПрисоединенныеФайлаКонтекстноеМеню</name>
+          <name>ПрисоединенныеФайлыКонтекстноеМеню</name>
           <id>94</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -978,6 +985,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.ПрисоединенныеФайлы.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1108,14 +1118,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1185,12 +1187,8 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
