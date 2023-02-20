@@ -7,13 +7,13 @@
     <listType typeId="6899041a-8021-47eb-8734-8555627b8afd" valueTypeId="a4e71d2f-9b95-4adb-a4c5-b89a58510bd0"/>
     <managerType typeId="abd1c247-39cf-411b-8418-334d02d4bd45" valueTypeId="5a35c26a-3d84-4d14-9aca-04fb83d37e06"/>
   </producedTypes>
-  <name>ДБ_АктыВыполненныхРаботы</name>
+  <name>ДБ_АктыВыполненныхРабот</name>
   <synonym>
     <key>ru</key>
-    <value>(ДБ) Акты выполненных работы</value>
+    <value>(ДБ) Акты выполненных работ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ДБ_АктыВыполненныхРаботы.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ДБ_АктыВыполненныхРабот.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,14 +24,14 @@
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Акты выполненных работы</value>
+    <value>Акты выполненных работ</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ДБ_АктыВыполненныхРаботы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.ДБ_АктыВыполненныхРабот.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДБ_АктыВыполненияРабот</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -170,7 +170,7 @@
     </synonym>
     <group>FormCommandBarCreateBasedOn</group>
     <commandParameterType>
-      <types>DocumentRef.ДБ_АктыВыполненныхРаботы</types>
+      <types>DocumentRef.ДБ_АктыВыполненныхРабот</types>
     </commandParameterType>
     <representation>Auto</representation>
   </commands>

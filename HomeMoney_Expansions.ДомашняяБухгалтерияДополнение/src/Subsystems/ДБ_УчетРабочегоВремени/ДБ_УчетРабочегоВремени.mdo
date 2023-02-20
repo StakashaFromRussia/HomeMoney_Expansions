@@ -21,6 +21,6 @@
   <content>Report.ДБ_УчетРабочегоВремениНовый</content>
   <content>Document.ДБ_НачислениеЗарплаты</content>
   <content>DataProcessor.ДБ_РабочееМестоПреподавателя</content>
-  <content>Document.ДБ_АктыВыполненныхРаботы</content>
+  <content>Document.ДБ_АктыВыполненныхРабот</content>
   <subsystems>Настройки</subsystems>
 </mdclass:Subsystem>

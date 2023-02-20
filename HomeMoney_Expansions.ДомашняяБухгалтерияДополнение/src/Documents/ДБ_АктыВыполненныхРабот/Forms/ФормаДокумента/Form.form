@@ -1130,7 +1130,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ДБ_АктыВыполненныхРаботы</types>
+      <types>DocumentObject.ДБ_АктыВыполненныхРабот</types>
     </valueType>
     <view>
       <common>true</common>

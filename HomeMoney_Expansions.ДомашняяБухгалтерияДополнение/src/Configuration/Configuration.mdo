@@ -84,7 +84,7 @@
   <documents>Document.ДБ_ПланыЗанятий</documents>
   <documents>Document.ДБ_УчетРабочегоВремениНовый</documents>
   <documents>Document.Доход</documents>
-  <documents>Document.ДБ_АктыВыполненныхРаботы</documents>
+  <documents>Document.ДБ_АктыВыполненныхРабот</documents>
   <enums>Enum.ДБ_ВидыУчетаРабочегоВремени</enums>
   <enums>Enum.ДБ_СостоянияЗадач</enums>
   <reports>Report.ДБ_ПланЗанятий</reports>
