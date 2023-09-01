@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28f0d2f-3872-45fd-b6ff-2a555a12bf91">
+  <name>ДБ_Коммунальные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коммунальные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДБ_Счетчики</content>
+  <content>Document.ДБ_ПоказанияСчетчиков</content>
+  <content>AccumulationRegister.ДБ_ПоказанияСчетчиков</content>
+</mdclass:Subsystem>

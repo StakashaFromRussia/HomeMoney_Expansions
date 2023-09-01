@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="832f9dce-c14e-4416-a7b9-2c479c88227f">
+  <producedTypes>
+    <objectType typeId="44210f11-6dbf-497a-9681-f1f089be64c0" valueTypeId="c7aad013-2bea-42d4-920b-fab8d0a867b7"/>
+    <refType typeId="bec68fc9-3d40-41e4-a280-f06642ff3f76" valueTypeId="526536d6-5183-4dc9-b0be-2eda69ddbee0"/>
+    <selectionType typeId="b546b76c-30be-4ed6-a0ef-ebc0840c775b" valueTypeId="8631b7fd-6157-4fe4-9be2-2629fa7d4c9f"/>
+    <listType typeId="2a51f75b-55c1-4e6c-98d3-e05b05b54d7b" valueTypeId="7e409af7-f5df-473d-9d83-363d2d1ca1b9"/>
+    <managerType typeId="5c429cba-223b-43c4-8101-698df1d7c2d8" valueTypeId="4e3603d7-af77-46fd-a276-7a883c2dc7ca"/>
+  </producedTypes>
+  <name>ДБ_Счетчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Счетчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДБ_Счетчики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДБ_Счетчики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Счетчик</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Счетчики</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

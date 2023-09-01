@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5b02545-be9f-45e4-adb6-5c40a4c90ba1">
+  <producedTypes>
+    <selectionType typeId="bb42d13c-9480-43e6-9bc5-a65aa02761e4" valueTypeId="8e4189a8-bb8f-4699-afef-03fa2500673c"/>
+    <listType typeId="ce9a2dc3-fdcd-40e5-bc40-de001e19b649" valueTypeId="aedb70a3-78e3-4546-bcf2-79379bfe46d0"/>
+    <managerType typeId="1dc7a76f-bbd7-4c2b-be4d-5c807fe522ce" valueTypeId="a4405f42-6151-4f40-9a1a-b017028bdda6"/>
+    <recordSetType typeId="81e9f411-4099-4b0c-a25e-b3bde546c117" valueTypeId="c1e1315f-c9a2-4f98-8316-cd9b8df946cc"/>
+    <recordKeyType typeId="c36fb13a-cd26-4f44-b077-970a528d5857" valueTypeId="27f092ab-d473-42b9-9ff9-93c941d3375b"/>
+    <recordType typeId="153411a7-b0e7-4e62-b7ef-773eda831d59" valueTypeId="289a56d7-85d1-4586-9883-2895fdde17f9"/>
+  </producedTypes>
+  <name>ДБ_ПоказанияСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Показания счетчиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f7889b3c-c0a0-4651-9eda-fb90d3afcabc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="34a6974b-637a-40e4-9758-75bc1e8dadda">
+    <name>Имущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Имущество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2f187782-8e19-463c-8215-414ab70f9ea4">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДБ_Счетчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

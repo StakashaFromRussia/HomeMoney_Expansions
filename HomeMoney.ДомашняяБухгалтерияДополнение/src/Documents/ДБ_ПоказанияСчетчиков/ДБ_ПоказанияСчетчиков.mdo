@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f73e4c93-0608-4b18-9f6a-386d7bd24cff">
+  <producedTypes>
+    <objectType typeId="da18b1f9-2a67-45b9-94e0-911912e5adaf" valueTypeId="1475a568-4c7b-448f-b54d-7a78199b6f8e"/>
+    <refType typeId="13244341-10c4-4ec8-ac4c-f928cfa09ce7" valueTypeId="fead0f7d-95b6-4c26-a36d-403a19efc6b7"/>
+    <selectionType typeId="2c0e6737-addd-4cf7-88a4-904dd40c27ff" valueTypeId="5d295cb3-f15e-475d-bb0c-1d25cf69b941"/>
+    <listType typeId="056c3604-3769-4b3f-9d91-89b29693dcaa" valueTypeId="537888b6-b1b0-48bf-8357-d10c00d483ea"/>
+    <managerType typeId="a9c5fa34-9a4f-41d2-9f61-635408c67477" valueTypeId="d263cfa6-fb84-4d9d-af16-047d2fb65e62"/>
+  </producedTypes>
+  <name>ДБ_ПоказанияСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ДБ) Показания счетчиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДБ_ПоказанияСчетчиков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показания счетчиков</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Показания счетчиков</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДБ_ПоказанияСчетчиков</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8e2cf538-4b9c-4e30-85c0-084db0cb28a4">
+    <name>Имущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Имущество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="12921f12-e0dc-4e75-84a9-63293062355d">
+    <producedTypes>
+      <objectType typeId="3be0b4f3-bf2d-4551-957e-a593c6d3b797" valueTypeId="3e6709bc-26ab-4e8e-a895-44a04a3b726f"/>
+      <rowType typeId="d0d86380-46d1-459a-beae-e30fdd15963d" valueTypeId="2fde77f2-a400-4a55-85f2-208de083e6d9"/>
+    </producedTypes>
+    <name>Показания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания</value>
+    </synonym>
+    <attributes uuid="3d089923-b287-42f4-8ba3-ad5cd5a08aa9">
+      <name>Счетчик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДБ_Счетчики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e18b7839-6bbb-4936-8950-55f5d5506b6a">
+      <name>Показание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показание</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

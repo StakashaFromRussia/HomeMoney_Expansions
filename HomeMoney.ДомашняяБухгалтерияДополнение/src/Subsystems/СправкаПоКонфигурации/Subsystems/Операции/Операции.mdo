@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4083e801-4636-4917-b8a6-c80f81acfe2a" extendedConfigurationObject="a516a0f1-493a-42a5-8dee-4f010d0fd171">
+  <name>Операции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <parentSubsystem>Subsystem.СправкаПоКонфигурации</parentSubsystem>
+</mdclass:Subsystem>
