@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="83fee03f-1cf0-4c17-851a-8d8fdc38e6ef">
+  <name>ДомашняяБухгалтерияДополнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашняя бухгалтерия (дополнение)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7a1e7000-0cd7-4f34-832a-fac9eaea3295"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="64b77c17-3c87-4eff-8a8d-938ede6ac895"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e890113b-60af-45c6-9f35-014488041104"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d4eeba1c-bf7c-4f4c-814f-cdff1226ec80"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="30498c26-b225-4ecb-8eeb-8bb01fcdf516"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="263f0b5f-472d-436f-ac81-26afac28756e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="44ef7fec-ec81-4823-8c26-acc10a0139f6"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ДБД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>stakasha</vendor>
+  <version>2020-11-06</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="7183cb92-745e-4293-892c-01d2a654796c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ДБ_Telegram</subsystems>
+  <subsystems>Subsystem.ДБ_Календарь</subsystems>
+  <subsystems>Subsystem.ДБ_УчетРабочегоВремени</subsystems>
+  <subsystems>Subsystem.СправкаПоКонфигурации</subsystems>
+  <subsystems>Subsystem.ДБ_Коммунальные</subsystems>
+  <styleItems>StyleItem.ФонЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ДеньгиЦветГиперссылки</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <commonPictures>CommonPicture.СтатьиДоходов16</commonPictures>
+  <commonPictures>CommonPicture.Кошелек16</commonPictures>
+  <roles>Role.ДБ_ИспользованиеБотов</roles>
+  <roles>Role.ДБ_ПолныеПрава</roles>
+  <commonModules>CommonModule.ДБ_ОбщегоНазначенияHTTP</commonModules>
+  <commonModules>CommonModule.ДБ_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ДБ_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ДБ_РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.ДБ_РаботаСКалендарем</commonModules>
+  <commonModules>CommonModule.ДБ_РаботаСКалендаремКлиент</commonModules>
+  <commonModules>CommonModule.ДБ_Телеграм</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <webServices>WebService.HM_TaskReport</webServices>
+  <webServices>WebService.HM_HomeMoney</webServices>
+  <httpServices>HTTPService.ДБ_Боты</httpServices>
+  <functionalOptions>FunctionalOption.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</functionalOptions>
+  <commonCommands>CommonCommand.ФормаОперацииУчесть</commonCommands>
+  <commonCommands>CommonCommand.ФормаОперацииВЧерновики</commonCommands>
+  <commonCommands>CommonCommand.ФормаОперацииНаУдаление</commonCommands>
+  <commonCommands>CommonCommand.ПосмотретьДвижения</commonCommands>
+  <constants>Constant.ДБ_GoogleClientID</constants>
+  <constants>Constant.ДБ_GoogleClientSecret</constants>
+  <constants>Constant.ДБ_GoogleRefreshToken</constants>
+  <constants>Constant.ДБ_ГруппаКонтактов</constants>
+  <constants>Constant.ДБ_ИдентификаторКалендаря</constants>
+  <constants>Constant.ДБ_ИспользоватьСинхронизациюСКалендаремGoogle</constants>
+  <constants>Constant.ДБ_СтатьяДоходаФриланс</constants>
+  <catalogs>Catalog.ДБ_ВидыДоходов</catalogs>
+  <catalogs>Catalog.ДБ_Задачи</catalogs>
+  <catalogs>Catalog.ДБ_Счетчики</catalogs>
+  <catalogs>Catalog.ДБ_УровниВладенияЯзыком</catalogs>
+  <catalogs>Catalog.ДБ_УчетныеЗаписиТелеграм</catalogs>
+  <catalogs>Catalog.ДополнительныеЗначенияВидовАналитик</catalogs>
+  <catalogs>Catalog.ЗначенияСубконтоАналитика</catalogs>
+  <catalogs>Catalog.Имущество</catalogs>
+  <catalogs>Catalog.Контакты</catalogs>
+  <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <catalogs>Catalog.СтатьиДоходов</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <catalogs>Catalog.ФинансовыеЦели</catalogs>
+  <documents>Document.ДБ_ВходящийHTTPЗапрос</documents>
+  <documents>Document.ДБ_НачислениеЗарплаты</documents>
+  <documents>Document.ДБ_ПланыЗанятий</documents>
+  <documents>Document.ДБ_УчетРабочегоВремениНовый</documents>
+  <documents>Document.Доход</documents>
+  <documents>Document.ДБ_АктыВыполненныхРаботы</documents>
+  <documents>Document.ДБ_ПоказанияСчетчиков</documents>
+  <enums>Enum.ДБ_ВидыУчетаРабочегоВремени</enums>
+  <enums>Enum.ДБ_СостоянияЗадач</enums>
+  <reports>Report.ДБ_ПланЗанятий</reports>
+  <reports>Report.ДБ_УчетВремениВыполненияРабот</reports>
+  <reports>Report.ДБ_УчетРабочегоВремениНовый</reports>
+  <dataProcessors>DataProcessor.ДБ_Настройки</dataProcessors>
+  <dataProcessors>DataProcessor.ДБ_РабочееМестоПреподавателя</dataProcessors>
+  <informationRegisters>InformationRegister.ДБ_ПланыЗанятий</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_УровниВладенияЯзыкомУчеников</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_Хронометраж</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_ЦеныЗанятий</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_ЦеныУровнейВладенияЯзыком</informationRegisters>
+  <informationRegisters>InformationRegister.ДБ_ЗначенияНастроекПрограммы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДБ_УчетРабочегоВремени</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДБ_АктыВыполненияРабот</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДБ_ПоказанияСчетчиков</accumulationRegisters>
+</mdclass:Configuration>

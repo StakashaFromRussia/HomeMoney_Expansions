@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f7bff5f-7451-4eac-b766-0e58c11b1e28">
+  <name>HM_TaskReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>(HM) Task report</value>
+  </synonym>
+  <namespace>http://www.stakasha_home_money.ru/tr</namespace>
+  <descriptorFileName>tr.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="786cc082-50a6-4e47-8fbe-62b47a9cfc8d">
+    <name>get_task_report</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get task report</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>get_task_report</procedureName>
+    <parameters uuid="2d54e8b7-5d4b-4f44-834e-4e5e9ec51b77">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8d306252-c4e3-467a-ada2-966c1e0d832f">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>
